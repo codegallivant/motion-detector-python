@@ -4,8 +4,8 @@
 ## Prerequisites
 - Python 3+
 - Pip Modules (`pip install -r requirements.txt`)
-	- cv2 (opencv-python)
-	- PIL (pillow)
+	- opencv-python (cv2)
+	- pillow (PIL)
 	- math
 	- operator
 	- functools
@@ -16,7 +16,7 @@
 
 <br>
 
-#### Basic example
+### Basic example
 ```py
 import motion_detector as md
 
@@ -34,7 +34,7 @@ d.start(callback = myfunc) # Starting detector loop here. Use the callback argum
 
 <br>
 
-#### Variations
+### Variations
 
 <br>
 
