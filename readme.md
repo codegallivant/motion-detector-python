@@ -3,9 +3,9 @@
 
 ## Prerequisites
 - Python 3+
-- Pip Modules
-	- cv2
-	- pillow
+- Pip Modules (`pip install -r requirements.txt`)
+	- cv2 (opencv-python)
+	- PIL (pillow)
 	- math
 	- operator
 	- functools
