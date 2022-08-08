@@ -74,7 +74,7 @@ while True:
     if md.current_movement == True: # Checking current movement status 
         # Executes if movement detected
         myfunc() 
-        md.stop() # Stopping detector loop
+        d.stop() # Stopping detector loop
 
 ```
 
