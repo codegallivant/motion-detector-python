@@ -71,7 +71,7 @@ d = md.MotionDetector()
 threading.Thread(target = d.start).start() # Starting parallel thread for detector
 
 while True:
-    if md.current_movement == True: # Checking current movement status 
+    if d.current_movement == True: # Checking current movement status 
         # Executes if movement detected
         d.stop() # Stopping detector loop
 	myfunc() 
