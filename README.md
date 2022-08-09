@@ -73,9 +73,9 @@ threading.Thread(target = d.start).start() # Starting parallel thread for detect
 while True:
     if md.current_movement == True: # Checking current movement status 
         # Executes if movement detected
-        myfunc() 
         d.stop() # Stopping detector loop
-
+	myfunc() 
+	break        
 ```
 
 <br>
